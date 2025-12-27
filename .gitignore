@@ -1,0 +1,40 @@
+# Data (too large)
+data/
+!data/.gitkeep
+
+# Model checkpoints (too large)
+checkpoints/
+!checkpoints/.gitkeep
+
+# Results (regenerable)
+results/
+!results/.gitkeep
+
+# Python garbage
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+notebooks/wandb/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+wandb/
+
+# Virtual environments
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
