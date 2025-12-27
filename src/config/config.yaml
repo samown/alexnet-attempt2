@@ -1,16 +1,16 @@
 # Configuration file for AlexNet iFood 2019 Project
 
-# Dataset paths (relative to project root)
+# Dataset paths (relative to project root - data is outside repo)
 data:
-  root_dir: "./data"
-  train_dir: "./data/train_set"
-  val_dir: "./data/val_set"
-  test_dir: "./data/test_set"
-  annotations_dir: "./data/annotations"
-  class_list_file: "./data/annotations/class_list.txt"
-  train_info_file: "./data/annotations/train_labels.csv"
-  val_info_file: "./data/annotations/val_labels.csv"
-  test_info_file: "./data/annotations/test_info.csv"
+  root_dir: "../"
+  train_dir: "../train_set"
+  val_dir: "../val_set"
+  test_dir: "../test_set"
+  annotations_dir: "../annotations"
+  class_list_file: "../annotations/class_list.txt"
+  train_info_file: "../annotations/train_labels.csv"
+  val_info_file: "../annotations/val_labels.csv"
+  test_info_file: "../annotations/test_info.csv"
   num_classes: 251
   image_size: 224  # AlexNet input size
 
